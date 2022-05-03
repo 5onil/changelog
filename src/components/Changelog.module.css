@@ -1,0 +1,41 @@
+.changelog {
+  margin-top: 20px;
+  border: 1px solid #eee;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+.changelog p {
+  color: #000;
+  padding: 0;
+  margin: 0;
+}
+.changelog .name {
+  font-weight: 900;
+  color: #000;
+}
+.changelog .additional {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.changelog .additional .fullActivity {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+}
+.changelog .viewIcon {
+  margin-left: 10px;
+  font-size: 0.8em;
+}
+
+@media only screen and (max-width: 600px) {
+  .changelog .additional {
+    flex-direction: column;
+  }
+  .changelog .additional .fullActivity {
+    margin-top: 15px;
+  }
+}
