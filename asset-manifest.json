@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/changelog/static/css/main.0f35dcdf.css",
+    "main.js": "/changelog/static/js/main.2907095d.js",
+    "index.html": "/changelog/index.html",
+    "main.0f35dcdf.css.map": "/changelog/static/css/main.0f35dcdf.css.map",
+    "main.2907095d.js.map": "/changelog/static/js/main.2907095d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f35dcdf.css",
+    "static/js/main.2907095d.js"
+  ]
+}
