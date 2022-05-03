@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 // styles && icons
-import styles from './ChangelogPreviw.module.css';
+import styles from './Changelog.module.css';
 import { BsPlayCircleFill } from 'react-icons/bs';
 import { BsXCircleFill } from 'react-icons/bs';
 
