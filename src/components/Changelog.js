@@ -14,7 +14,6 @@ export const Changelog = ({ logs }) => {
     let result = logs
       .slice(3)
       .reduce((acc, o) => ((acc[o.name] = (acc[o.name] || 0) + 1), acc), {});
-    console.log('the if', Object.keys(result).length);
     // return if there is above 4 comments
     if (logs.length > 3) {
       return (
